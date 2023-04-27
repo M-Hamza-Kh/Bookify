@@ -1,0 +1,139 @@
+.main-div {
+  height: 100vh;
+}
+.second-main-div {
+  width: 50rem;
+  height: 38rem;
+}
+.form-main-div {
+  width: 90%;
+}
+.heading {
+  font-weight: 700;
+  margin-top: 35px;
+}
+.email-field-div {
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.email-icon {
+  font-size: 25px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.email-input {
+  outline: none;
+  border-style: none;
+  margin-left: 10px;
+  width: 90%;
+  height: 32px;
+  font-size: larger;
+  font-weight: 500;
+
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.password-field-div {
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.password-icon {
+  font-size: 25px;
+}
+.password-input {
+  outline: none;
+  border-style: none;
+  margin-left: 10px;
+  width: 90%;
+  height: 32px;
+  font-size: larger;
+  font-weight: 500;
+}
+.register-button {
+  background-color: rgb(120, 187, 192);
+  color: #ffff;
+  width: 120px;
+  height: 50px;
+  border: 1px solid rgb(47, 123, 173);
+  border-radius: 8px;
+}
+.register-img {
+  width: 100%;
+  height: 80%;
+}
+@media screen and (max-width: 810px) {
+  .second-main-div {
+    width: 100%;
+  }
+  .form-main-div {
+    width: 100%;
+    /* height: 26rem; */
+  }
+}
+@media screen and (max-width: 633px) {
+  .second-main-div {
+    width: 100%;
+  }
+  .form-main-div {
+    width: 100%;
+    /* height: 26rem; */
+  }
+  .register-img {
+    width: 100%;
+    height: 60%;
+  }
+}
+@media screen and (max-width: 499px) {
+  .second-main-div {
+    width: 100%;
+  }
+  .form-main-div {
+    width: 100%;
+    height: 20rem;
+  }
+  .register-img {
+    width: 100%;
+    height: 50%;
+  }
+  .heading {
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  .first-col {
+    display: flex;
+    align-items: center;
+  }
+  .second-col {
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 575px) {
+  .second-main-div {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+
+    height: 100rem;
+    border: 3px solid black;
+  }
+  .second-col {
+    margin-top: 20rem;
+  }
+  .first-col {
+    margin-top: 2rem;
+  }
+  .register-img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+  }
+}
